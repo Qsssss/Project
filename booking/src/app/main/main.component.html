@@ -1,0 +1,28 @@
+<p id="b">BOOKING</p>
+<div>
+    <form id="one">
+        <label>City</label>
+        <input list="city" id="city">
+        <datalist id="city">
+            <option value="Nur-Sultan">
+            <option value="Almaty">
+            <option value="Aktau">
+            <option value="Shymkent">
+            <option value="Karagandy">
+        </datalist>
+    </form>
+    <form id="one">
+        <label>Stars</label>
+        <input type="number" id="stars" name="stars" min="1" max="5" value="1">
+    </form>
+    <button (click)="getHotels()" id="btn">
+        Search
+    </button>
+</div>
+<div class=right>
+    <a [routerLink]="[ '/login' ]">Log In</a>
+    <a [routerLink]="[ '/sign-up' ]">Register</a>
+</div>
+<div id="demo">
+    <div id="demo1"></div>
+</div>
