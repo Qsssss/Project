@@ -5,12 +5,12 @@ export const HOTELS: Hotel[] = [
         name: 'Hotel 1',
         description: 'AAA',
         tel: '777',
-        city: 'Almaty',
+        city: 'Nur-Sultan',
         comment: 'asd',
         gallery_id: 1,
         photo: 'https://pix10.agoda.net/hotelImages/276234/-1/13d75164caaf0f692321d155994ff9e6.jpg?s=1024x768',
         no_rooms: 4,
-        stars: '1'
+        stars: '3'
     },
     {   id: 2,
         name: 'Hotel 2',
@@ -24,7 +24,7 @@ export const HOTELS: Hotel[] = [
         stars: '3'
     },
     {   id: 3,
-        name: 'Hotel 3',
+        name: 'Hotel #3',
         description: 'AAA',
         tel: '777',
         city: 'Almaty',
@@ -38,7 +38,7 @@ export const HOTELS: Hotel[] = [
         name: 'Hotel 4',
         description: 'AAA',
         tel: '777',
-        city: 'Nur-Sultan',
+        city: 'Almaty',
         comment: 'asd',
         gallery_id: 1,
         photo: 'https://media-cdn.tripadvisor.com/media/photo-s/10/00/09/a8/swimming-pool.jpg',

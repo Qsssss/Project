@@ -36,13 +36,8 @@ input{
     cursor: pointer;
     border-radius: 15px;
     margin-left: 30px;
-    float: left;
-}
-#n{
-    float: left;
 }
 .right{
-    float: left;
     margin-left: 1500px;
 }
 .right a{
@@ -56,4 +51,8 @@ input{
 }
 #demo{
     float: left;
+}
+#pp{
+    font-size: 15px;
+    margin-left: 50px;
 }
