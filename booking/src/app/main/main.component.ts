@@ -55,5 +55,6 @@ export class MainComponent implements OnInit {
     text1.style["color"] = "blue";
     img1.style["margin-top"] = "20px";
     text1.style["margin-left"] = "20px";
+    img1.style["margin-left"] = "50px";
   }
 }
