@@ -33,18 +33,27 @@ export class MainComponent implements OnInit {
         img1.onclick = this.getInfo;
         img1.height = 200;
         img1.width = 300;
-        var text = document.createElement('a');
-        text.textContent = this.hotels[i].name;
-        text.href = "/detail";
+        var text1 = document.createElement('a');
+        text1.textContent = this.hotels[i].name;
+        text1.href = "/detail";
         var br = document.createElement("br");
+
+        this.style(text1,img1);
         
         document.getElementById('demo1').appendChild(br);
         document.getElementById('demo1').appendChild(img1);
-        document.getElementById('demo1').appendChild(text);
+        document.getElementById('demo1').appendChild(text1);
       }
     }
   }
   getInfo(){
     window.alert("aaa");
+  }
+  style(text1,img1){
+    text1.style["text-decoration"] = "none";
+    text1.style["font-size"] = "30px";
+    text1.style["color"] = "blue";
+    img1.style["margin-top"] = "20px";
+    text1.style["margin-left"] = "20px";
   }
 }

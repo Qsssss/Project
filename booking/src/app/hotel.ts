@@ -21,7 +21,7 @@ export const HOTELS: Hotel[] = [
         gallery_id: 1,
         photo: 'https://media-cdn.tripadvisor.com/media/photo-s/10/00/09/a8/swimming-pool.jpg',
         no_rooms: 4,
-        stars: '1'
+        stars: '3'
     },
     {   id: 3,
         name: 'Hotel 3',
@@ -32,6 +32,17 @@ export const HOTELS: Hotel[] = [
         gallery_id: 1,
         photo: 'https://r-cf.bstatic.com/images/hotel/max1024x768/148/148566666.jpg',
         no_rooms: 4,
-        stars: '1'
-    }
+        stars: '5'
+    },
+    {   id: 4,
+        name: 'Hotel 4',
+        description: 'AAA',
+        tel: '777',
+        city: 'Nur-Sultan',
+        comment: 'asd',
+        gallery_id: 1,
+        photo: 'https://media-cdn.tripadvisor.com/media/photo-s/10/00/09/a8/swimming-pool.jpg',
+        no_rooms: 4,
+        stars: '3'
+    },
 ]
