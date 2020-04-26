@@ -1,44 +1,33 @@
 *{
-    display: flex;
     margin: 0px;
     padding: 0px;
 }
-#b{
-    font-size: 40px;
-    font-family: cursive;
-    background-color: black;
-    color: white;
-    margin-bottom: 30px;
-    padding-left: 50px;
-}
-#one{
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+h2{
     float: left;
     margin-left: 50px;
+    color: #09435d;
+    font-size: 40px;
+}
+.image{
+    height: 200px;
+    width: 300px;
+}
+.hotels{
+    float: left;
     margin-right: 50px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    list-style-type: none;
 }
-input{
-    border: 1px solid grey;
-    width: 200px;
-    padding: 7px;
-    font-size: 16px;
-    margin-left: 15px;
-}
-#btn{
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 73px;
-    background: blue;
-    color:white;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 15px;
-    margin-left: 30px;
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #0e6790;
 }
 .right{
-    margin-left: 1500px;
+    margin-left: 1600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .right a{
     margin-left: 60px;

@@ -8,6 +8,8 @@ import { MainComponent } from './main/main.component';
 import { HotelDetailComponent } from './hotel-detail/hotel-detail.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { KomnatyComponent } from './komnaty/komnaty.component';
+import { FavouritesComponent } from './favourites/favourites.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     MainComponent,
     HotelDetailComponent,
     LoginComponent,
-    SignUpComponent
+    SignUpComponent,
+    KomnatyComponent,
+    FavouritesComponent
   ],
   imports: [
     BrowserModule,

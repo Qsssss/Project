@@ -19,7 +19,7 @@ export const HOTELS: Hotel[] = [
         city: 'Nur-Sultan',
         comment: 'asd',
         gallery_id: 1,
-        photo: 'https://media-cdn.tripadvisor.com/media/photo-s/10/00/09/a8/swimming-pool.jpg',
+        photo: 'https://images.trvl-media.com/hotels/10000000/9070000/9069900/9069846/373d96fe_z.jpg',
         no_rooms: 4,
         stars: '3'
     },

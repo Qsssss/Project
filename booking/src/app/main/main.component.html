@@ -1,5 +1,4 @@
-<p id="b">BOOKING</p>
-<div id="n">
+<!-- <div id="n">
     <form id="one">
         <label>City</label>
         <input list="city" id="city">
@@ -18,12 +17,26 @@
     <button (click)="getHotels()" id="btn">
         Search
     </button>
-</div>
-<div class=right>
+</div> -->
+<!-- <div class=right>
     <a [routerLink]="[ '/login' ]">Log In</a>
     <a [routerLink]="[ '/sign-up' ]">Register</a>
 </div>
 <p id="pp">*Click for more information</p>
 <div id="demo">
     <div id="demo1"></div>
+</div> -->
+<h2>Hotels</h2>
+<div class=right>
+    <a [routerLink]="[ '/login' ]">Log In</a>
+    <a [routerLink]="[ '/sign-up' ]">Register</a>
 </div>
+<ul class="hotels">
+    <li *ngFor="let hotel of hotels" class="hotels">
+       <a routerLink="/detail/{{hotel.id}}">
+           <img class="image" src="{{hotel.photo}}">
+           <h3>{{hotel.name}}</h3>
+           <p>Stars: {{hotel.stars}}</p>
+       </a> 
+    </li>
+</ul>

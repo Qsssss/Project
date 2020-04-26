@@ -1,0 +1,12 @@
+<div *ngIf="room">
+    <ul>
+        <li *ngFor="let rooms of room.komnaty" >
+            <img src='{{rooms.photo}}' class="image">
+            <p id="des">Description: {{rooms.description}}</p>
+            <p id="pr">Price: {{rooms.price}}</p>
+            <p id="ch">Max number of people: {{rooms.chel}}</p>
+            <h3 id="br">Bron': {{rooms.zanyat}}</h3>
+        </li>
+    </ul>
+</div>
+<button  (click)="goBack()">Go Back</button>
