@@ -1,0 +1,14 @@
+<h2>Hotels</h2>
+<div class=right>
+    <a [routerLink]="[ '/login' ]">Log In</a>
+    <a [routerLink]="[ '/sign-up' ]">Register</a>
+</div>
+<ul class="hotels">
+    <li *ngFor="let hotel of hotels" class="hotels">
+       <a routerLink="/detail/{{hotel.id}}">
+           <img class="image" src="{{hotel.image}}">
+           <h3>{{hotel.name}}</h3>
+           <p>Stars: {{hotel.stars}}</p>
+       </a> 
+    </li>
+</ul>
